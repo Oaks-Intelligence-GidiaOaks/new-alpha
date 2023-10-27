@@ -1,0 +1,15 @@
+export { default as AboutUs } from "./AboutUs";
+export { default as Banner } from "./Banner";
+export { default as CallUs } from "./CallUs";
+export { default as Events } from "./Events";
+export { default as Partners } from "./Partners";
+export { default as Portfolio } from "./Portfolio";
+export { default as Services } from "./Services";
+export { default as Testimnoials } from "./Testimnoials";
+export { default as AboutSummary } from "./AboutSummary";
+export { default as MissionVision } from "./MissionVision";
+export { default as TrustedCompany } from "./TrustedCompany";
+export { default as OurSkills } from "./OurSkills";
+export { default as WhatWeDo } from "./WhatWeDo";
+export { default as Subscribe } from "./Subscribe";
+export { default as ContactForm } from "./ContactForm";
