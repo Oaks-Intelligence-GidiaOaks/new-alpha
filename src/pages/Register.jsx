@@ -97,6 +97,7 @@ const Register = () => {
       // setCountryOfOrigin("");
       // setCountryOfDeparture("");
       // setTel("");
+      toast.success(data.message);
       sizeRef.current.clearValue();
       airportRef.current.clearValue();
       reset();
