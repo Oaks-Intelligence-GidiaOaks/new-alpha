@@ -1,15 +1,30 @@
-import React from "react";
-
+import star from "../assets/star-filled.svg";
 const OurSkills = () => {
+  // const Skill = ({ lead, progress, flex }) => (
+  //   <div className="space-y-2 text-white font-pt">
+  //     <div className="flex justify-between text-[22px] font-semibold">
+  //       <h5>{lead}</h5>
+  //       <h5>{progress}%</h5>
+  //     </div>
+
+  //     <div className="rounded-full flex h-2 bg-white">
+  //       <div className={`${flex} rounded-l-full bg-secondary h-full`} />
+  //     </div>
+  //   </div>
+  // );
   const Skill = ({ lead, progress, flex }) => (
     <div className="space-y-2 text-white font-pt">
       <div className="flex justify-between text-[22px] font-semibold">
         <h5>{lead}</h5>
-        <h5>{progress}%</h5>
+        <h5>{progress}</h5>
       </div>
 
-      <div className="rounded-full flex h-2 bg-white">
-        <div className={`${flex} rounded-l-full bg-secondary h-full`} />
+      <div className="gap-3 rounded-full flex mb-4">
+        {Array(5)
+          .fill(0)
+          .map((item, index) => (
+            <img className="w-8 h-8" key={index} src={star} alt="star" />
+          ))}
       </div>
     </div>
   );
@@ -22,23 +37,15 @@ const OurSkills = () => {
           <h5 className="text-secondary">Our Professional Skill’s</h5>
           <h2 className="text-3xl md:text-5xl font-bold font-pt text-white">
             Professional Skill <br /> of{" "}
-            <span className="text-secondary"> Alpha-Scores</span>
+            <span className="text-secondary"> Alpha Scores</span>
           </h2>
         </div>
         {/* second */}
         <div className="space-y-4 z-20 flex-1">
-          <Skill
-            lead="Artificial Intelligence"
-            progress="95"
-            flex="flex-[0.95]"
-          />
-          <Skill lead="Image Processing" progress="90" flex="flex-[0.9]" />
-          <Skill
-            lead="Data-driven Decisions and Information"
-            progress="95"
-            flex="flex-[0.95]"
-          />
-          <Skill lead=" Big Data Analytics" progress="90" flex="flex-[0.9]" />
+          <Skill lead="Research and Analysis" progress="" flex="flex-[0.95]" />
+          <Skill lead="Co-Production" progress="" flex="flex-[0.9]" />
+          <Skill lead="Advisory" progress="" flex="flex-[0.95]" />
+          <Skill lead="Consulting" progress="" flex="flex-[0.9]" />
         </div>
 
         <img

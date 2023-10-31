@@ -10,7 +10,7 @@ const TrustedCompany = () => {
       <div className="container flex flex-col md:flex-row gap-10">
         {/* first */}
         <div className="flex-1 flex flex-col gap-y-8">
-          <h5 className="text-secondary">Welcome To Alpha-Scores</h5>
+          <h5 className="text-secondary">Welcome To Alpha Scores</h5>
 
           <h2
             className={` text-[#0a272c] text-3xl md:text-5xl font-bold font-pt`}

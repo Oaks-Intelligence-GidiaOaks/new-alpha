@@ -24,7 +24,7 @@ const About = () => {
       <OurSkills />
 
       {/* testimnial */}
-      <Testimnoials />
+      {/* <Testimnoials /> */}
 
       {/* footer */}
       <Footer />

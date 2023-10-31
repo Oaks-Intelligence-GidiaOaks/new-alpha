@@ -29,7 +29,7 @@ const Home = () => {
       {/* Portfolio */}
 
       {/* testimonials */}
-      <Testimnoials />
+      {/* <Testimnoials /> */}
 
       {/* latest events */}
       <Events />

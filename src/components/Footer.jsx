@@ -105,7 +105,7 @@ const Footer = () => {
       {/*  */}
       <div className="flex flex-col md:flex-row space-between text-white text-center justify-center pt-6 mt-6 border-t border-gray-700 gap-2">
         <span>Copyright © 2023 - All Right Reserved by</span>
-        <span className="text-secondary">Alpha-Scores Training Ltd.</span>
+        <span className="text-secondary">Alpha Scores Training Ltd.</span>
       </div>
     </div>
   );

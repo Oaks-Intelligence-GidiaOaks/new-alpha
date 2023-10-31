@@ -13,12 +13,13 @@ const AboutSummary = () => {
         {/* second */}
         <div className="flex flex-1 flex-col gap-8 text-base lg:text-xl">
           <h5 className="text-secondary text-lg">
-            Welcome To Alpha-Scores Training
+            Welcome To Alpha Scores Training
           </h5>
 
           <h2 className="font-pt text-3xl lg:text-5xl font-semibold">
             We are trusted consulting company, with{" "}
-            <span className="text-secondary">28+ years</span> of experience.
+            <span className="text-secondary">substantial</span> years of
+            experience.
           </h2>
 
           <p className="text-grey">
