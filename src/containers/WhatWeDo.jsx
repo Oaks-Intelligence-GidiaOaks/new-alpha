@@ -7,9 +7,9 @@ import {
   GiRollingEnergy,
 } from "react-icons/gi";
 import { PiAirplaneTakeoffBold } from "react-icons/pi";
-import { AiOutlineSolution } from "react-icons/ai";
+import { AiOutlineSafetyCertificate, AiOutlineSolution } from "react-icons/ai";
 import { FcApproval } from "react-icons/fc";
-// import {}
+import { BiSolidLeaf } from "react-icons/bi";
 
 const WhatWeDo = () => {
   const ServiceCard = ({ lead, text, Icon }) => (
@@ -82,6 +82,20 @@ We also train and organize comprehensive seminars for our clients to equip them 
           Icon={<GiRollingEnergy className="text-secondary text-4xl" />}
           lead="Energy Solutions"
           text="We train our clients on how and where to invest in renewable energy sources."
+        />
+        <ServiceCard
+          Icon={<BiSolidLeaf className="text-secondary text-4xl" />}
+          text="We teach strategies for effective environmental regulation that meet the needs of all stakeholders. "
+          lead="Environmental consultancy"
+          img="./images/03.jpg"
+        />
+        <ServiceCard
+          Icon={
+            <AiOutlineSafetyCertificate className="text-secondary text-4xl" />
+          }
+          text="Where we teach effective sector-specific regulatory strategies that meet the needs of diverse industries and stakeholders"
+          lead="Regulatory Consultancies /Training"
+          img="./images/03.jpg"
         />
       </div>
     </div>
